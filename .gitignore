@@ -1,0 +1,13 @@
+# Archivo de configuración local con credenciales
+includes/config.php
+
+# Entorno y archivos de sistema
+.env
+.DS_Store
+Thumbs.db
+*.log
+
+# Subidas temporales o locales si se requiere
+# uploads/*
+#!uploads/.htaccess
+#!uploads/**/

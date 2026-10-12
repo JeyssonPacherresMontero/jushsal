@@ -1,0 +1,18 @@
+# JUSHSAL - Blindaje de seguridad para directorio de subidas (uploads)
+# Desactiva motor PHP y bloquea cualquier intento de ejecución de scripts
+
+<IfModule mod_php.c>
+  php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+  php_flag engine off
+</IfModule>
+<IfModule mod_php8.c>
+  php_flag engine off
+</IfModule>
+
+<FilesMatch "\.(php|phtml|phar|php[0-9]|pl|py|cgi|asp|aspx|sh|bash)$">
+  Require all denied
+</FilesMatch>
+
+Options -Indexes

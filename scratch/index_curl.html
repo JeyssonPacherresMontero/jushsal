@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="Institución de prestigio dedicada a la administración, operación y distribución eficiente del agua en Tambogrande, Piura."/>
+  <title>Junta de Usuarios San Lorenzo – Sector Hidráulico Menor San Lorenzo</title>
+  <link rel="icon" href="http://localhost:8080/jushsal/assets/images/logo.png"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="http://localhost:8080/jushsal/css/style.css"/>
+</head>
+<body>
+
+<!-- ===== Barra superior ===== -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-contactos">
+      <a class="topbar-link" href="mailto:juntasanlorenzo@jusanlorenzo.org.pe">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6.5l8 5 8-5V8z"/></svg>
+        juntasanlorenzo@jusanlorenzo.org.pe
+      </a>
+      <a class="topbar-link" href="tel:+51942028075">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.57 1 1 0 0 1-.25 1.02z"/></svg>
+        +51 942 028 075
+      </a>
+    </div>
+    <div class="topbar-info">
+      <span class="topbar-link">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+        Av. Reforma Agraria S/N – La Cruceta – Tambogrande – Piura
+      </span>
+      <span class="topbar-link topbar-horario">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10h5v2h-7V6h2v6z"/></svg>
+        Lun–Vie 8:00 a.m. – 4:00 p.m. · Sáb 8:00 a.m. – 1:00 p.m.
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- ===== Cabecera / Menú ===== -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a class="brand" href="http://localhost:8080/jushsal/index.php#inicio">
+      <img class="brand-logo" src="http://localhost:8080/jushsal/assets/images/logo.png" alt="Logo Junta de Usuarios San Lorenzo"/>
+      <div class="brand-text">
+        <strong>Junta de Usuarios</strong>
+        <span>Sector Hidráulico Menor San Lorenzo</span>
+      </div>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav" aria-label="Menú principal">
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="http://localhost:8080/jushsal/index.php#inicio">Inicio</a></li>
+        <li class="nav-item has-sub">
+          <a class="nav-link" href="http://localhost:8080/jushsal/index.php#institucion">La Institución
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 10l5 5 5-5H7z"/></svg>
+          </a>
+          <ul class="submenu">
+            <li><a href="http://localhost:8080/jushsal/index.php#quienes-somos">Quiénes Somos</a></li>
+            <li><a href="http://localhost:8080/jushsal/index.php#historia">Nuestra Historia</a></li>
+            <li><a href="http://localhost:8080/jushsal/presidentes.php">Presidentes y Logros</a></li>
+            <li><a href="http://localhost:8080/jushsal/index.php#documentos">Documentos Institucionales</a></li>
+            <li><a href="http://localhost:8080/jushsal/index.php#comisiones">Comisiones de Usuarios</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="http://localhost:8080/jushsal/index.php#noticias">Noticias</a></li>
+        <li class="nav-item"><a class="nav-link" href="http://localhost:8080/jushsal/index.php#galeria">Galería</a></li>
+        <li class="nav-item"><a class="nav-link" href="http://localhost:8080/jushsal/index.php#servicios">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="http://localhost:8080/jushsal/index.php#contacto">Contáctanos</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="btn btn-primary" href="http://localhost:8080/jushsal/index.php#contacto">Solicitar información</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ===== Portada ===== -->
+<section class="hero" id="inicio">
+  <div class="hero-overlay"></div>
+  <div class="container hero-inner">
+    <p class="hero-eyebrow">Sector Hidráulico Menor San Lorenzo</p>
+    <h1 class="hero-title">Junta de Usuarios San Lorenzo</h1>
+    <p class="hero-subtitle">Institución de prestigio, reconocida por su vocación integradora y la gestión eficiente del recurso hídrico; brindamos servicios de calidad a nuestros usuarios para generar bienestar.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary btn-lg" href="#contacto">Contáctanos</a>
+      <a class="btn btn-ghost btn-lg" href="#quienes-somos">Conócenos</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <div class="hero-card-item">
+      <span class="hero-card-num">+63</span>
+      <span class="hero-card-label">Años de gestión hídrica</span>
+    </div>
+    <div class="hero-card-item">
+      <span class="hero-card-num">16</span>
+      <span class="hero-card-label">Comisiones de usuarios</span>
+    </div>
+    <div class="hero-card-item">
+      <span class="hero-card-num">1,000+</span>
+      <span class="hero-card-label">Usuarios atendidos</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Quiénes Somos ===== -->
+<section class="section" id="institucion">
+  <div class="container grid-2 align-center" id="quienes-somos">
+    <div class="about-visual">
+      <div class="about-visual-bg"></div>
+      <div class="about-visual-content">
+        <span class="about-visual-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z" stroke-linejoin="round"/><path d="M12 2v20" stroke-linejoin="round"/></svg>
+        </span>
+        <h3>Gestión eficiente del recurso hídrico</h3>
+        <p>Vocación integradora al servicio de los agricultores y usuarios de agua de San Lorenzo.</p>
+      </div>
+    </div>
+    <div class="content">
+      <p class="eyebrow">¿Quiénes somos?</p>
+      <h2 class="section-title">Una institución con vocación integradora</h2>
+      <p>Somos la <strong>Junta de Usuarios del Sector Hidráulico Menor San Lorenzo – Clase A</strong>, una institución de prestigio que administra y distribuye el recurso hídrico con eficiencia, promoviendo el desarrollo sostenible de la agricultura en Tambogrande, Piura.</p>
+      <p>Nuestra labor se centra en la operación y mantenimiento de la infraestructura de riego, la atención oportuna a nuestros usuarios y la gestión transparente de los recursos.</p>
+      <div class="check-list">
+        <div class="check-item"><span class="check-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg></span><span>Operación y mantenimiento de canales de riego</span></div>
+        <div class="check-item"><span class="check-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg></span><span>Servicios de calidad para los usuarios</span></div>
+        <div class="check-item"><span class="check-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg></span><span>Gestión transparente y participativa del agua</span></div>
+      </div>
+      <a class="btn btn-primary" href="#contacto">Trabajemos juntos</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Noticias ===== -->
+<section class="section section-alt" id="noticias">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Información institucional</p>
+        <h2 class="section-title">Últimas noticias</h2>
+        <p class="section-desc">Comunicados, actividades y novedades de la Junta de Usuarios San Lorenzo.</p>
+      </div>
+      <!-- El botón de publicar noticia fue retirado del público y trasladado al panel /admin -->
+    </div>
+    <div class="news-grid" id="newsGrid">
+      <article class="news-card">
+        <div class="news-media tint-1">
+          <img class="news-img" src="assets/images/repartidor.jpg" alt="Inscripción de usuarios" loading="lazy"/>
+          <span class="news-badge">Comunicado</span>
+        </div>
+        <div class="news-body">
+          <span class="news-date">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 16H5V9h14v11z"/></svg>
+            Publicado recientemente
+          </span>
+          <h3>Inscripción de nuevos usuarios para el presente año agrícola</h3>
+          <p>La Junta de Usuarios San Lorenzo comunica el inicio del proceso de inscripción y actualización de datos de los usuarios del sector hidráulico.</p>
+          <a class="link-more" href="#noticias">Más información <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <div class="news-media tint-2">
+          <img class="news-img" src="assets/images/valvula.jpg" alt="Mantenimiento preventivo" loading="lazy"/>
+          <span class="news-badge">Gestión</span>
+        </div>
+        <div class="news-body">
+          <span class="news-date">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 16H5V9h14v11z"/></svg>
+            Publicado recientemente
+          </span>
+          <h3>Mantenimiento preventivo de la red de canales de riego</h3>
+          <p>Se realizan trabajos de limpieza y descolmatación de canales principales coordinados directamente con cada comisión de usuarios.</p>
+          <a class="link-more" href="#noticias">Más información <span>→</span></a>
+        </div>
+      </article>
+
+      <article class="news-card">
+        <div class="news-media tint-3">
+          <img class="news-img" src="assets/images/asamblea.jpg" alt="Asamblea general ordinaria" loading="lazy"/>
+          <span class="news-badge">Actividad</span>
+        </div>
+        <div class="news-body">
+          <span class="news-date">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 16H5V9h14v11z"/></svg>
+            Publicado recientemente
+          </span>
+          <h3>Asamblea general ordinaria de usuarios</h3>
+          <p>Convocatoria a todos los usuarios del sector hidráulico menor donde se informan los acuerdos de gestión y el plan de inversiones.</p>
+          <a class="link-more" href="#noticias">Más información <span>→</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Historia ===== -->
+<section class="section" id="historia">
+  <div class="container grid-2 align-center">
+    <div class="content">
+      <p class="eyebrow">Trayectoria</p>
+      <h2 class="section-title">Nuestra historia</h2>
+      <p>La <strong>Junta de Usuarios del Sector Hidráulico Menor San Lorenzo – Clase A</strong> cuenta con más de 63 años de servicio institucional al cuidado y distribución del recurso hídrico en los valles de San Lorenzo.</p>
+      <p>A lo largo de las distintas gestiones se ha consolidado la infraestructura hidráulica mayor y menor, velando permanentemente por la justicia en el reparto del agua y el bienestar de los agricultores.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px;">
+        <a class="btn btn-primary" href="presidentes.php">Ver Presidentes y Logros</a>
+        <a class="btn btn-outline" href="#documentos">Documentos oficiales</a>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="stat"><span class="stat-num">+63</span><span class="stat-label">Años de servicio institucional</span></div>
+      <div class="stat"><span class="stat-num">16</span><span class="stat-label">Comisiones integradas</span></div>
+      <div class="stat"><span class="stat-num">Clase A</span><span class="stat-label">Calificación hidráulica</span></div>
+      <div class="stat"><span class="stat-num">Piura</span><span class="stat-label">Tambogrande, Perú</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Documentos ===== -->
+<section class="section section-alt" id="documentos">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">Transparencia</p>
+      <h2 class="section-title">Documentos institucionales</h2>
+      <p class="section-desc">Accede a la normativa, tarifas y documentos oficiales de la Junta de Usuarios San Lorenzo.</p>
+    </div>
+    <div class="docs-grid">
+      <div class="doc-card">
+        <span class="doc-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"/></svg></span>
+        <h3 title="D.S. Nº 007-2024-MIDAGRI, Reglamento">D.S. Nº 007-2024-MIDAGRI</h3>
+        <p>Reglamento oficial.</p>
+        <a class="link-more" href="documentos/D.S%20N%C2%BA%20007-2024-MIDAGRI%2C%20REGLAMENTO.pdf" target="_blank" rel="noopener">Consultar <span>→</span></a>
+      </div>
+      <div class="doc-card">
+        <span class="doc-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"/></svg></span>
+        <h3 title="Ley Nº 31801 de Organizaciones de Usuarios">Ley Nº 31801</h3>
+        <p>Fortalecimiento de OUA.</p>
+        <a class="link-more" href="documentos/LEY%20N%C2%BA%2031801%20LEY%20QUE%20REGULA%20LAS%20OUA%20PARA%20EL%20FORALECIMIENTO%20EN%20LA%20GESTION%20MULTISECTORIAL%20DE%20LOS%20RRHH.pdf" target="_blank" rel="noopener">Consultar <span>→</span></a>
+      </div>
+      <div class="doc-card">
+        <span class="doc-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"/></svg></span>
+        <h3 title="Ley de Recursos Hídricos Nº 29338">Ley Nº 29338</h3>
+        <p>Recursos Hídricos.</p>
+        <a class="link-more" href="documentos/LEY%20DE%20RECURSOS%20HIDRICOS%20N%C2%B0%2029338%20ok.pdf" target="_blank" rel="noopener">Consultar <span>→</span></a>
+      </div>
+      <div class="doc-card">
+        <span class="doc-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"/></svg></span>
+        <h3 title="Aprobación de Tarifa de Agua 2026">Tarifa de Agua 2026</h3>
+        <p>Valores aprobados.</p>
+        <a class="link-more" href="documentos/APRUEBAN%20VALORES%20DE%20TARIFA%20DE%20AGUA%202026.pdf" target="_blank" rel="noopener">Consultar <span>→</span></a>
+      </div>
+      <div class="doc-card">
+        <span class="doc-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"/></svg></span>
+        <h3 title="R.J. 155 Reglamento de Operadores">R.J. 155 ANA</h3>
+        <p>Reglamento operadores.</p>
+        <a class="link-more" href="documentos/r.j.%20155%20Reglamento%20Operadores.pdf.pdf" target="_blank" rel="noopener">Consultar <span>→</span></a>
+      </div>
+      <div class="doc-card">
+        <span class="doc-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"/></svg></span>
+        <h3 title="Supervisión de Juntas de Usuarios">R.J. 041-2018-ANA</h3>
+        <p>Lineamientos ANA.</p>
+        <a class="link-more" href="documentos/R.J.041-2018-ANA%20Lineam.Superv.Juntas%20Usuarios%20%281%29.pdf" target="_blank" rel="noopener">Consultar <span>→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Comisiones ===== -->
+<section class="section" id="comisiones">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">Organización</p>
+      <h2 class="section-title">Comisiones de usuarios</h2>
+      <p class="section-desc">Conoce los 16 sub sectores y comisiones que conforman nuestro sector hidráulico.</p>
+    </div>
+    <div class="comm-grid" id="commGrid"></div>
+  </div>
+</section>
+
+<!-- ===== Servicios ===== -->
+<section class="section section-dark" id="servicios">
+  <div class="container">
+    <div class="section-head center light">
+      <p class="eyebrow">Servicios</p>
+      <h2 class="section-title">Servicio de maquinaria</h2>
+      <p class="section-desc">Ponemos a disposición de nuestros usuarios maquinaria para labores de mantenimiento y rehabilitación de la infraestructura de riego.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="service-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2a3 3 0 0 0 6 0h6a3 3 0 0 0 6 0h1v-5l-2-4zM6 18.5A1.5 1.5 0 1 1 7.5 17 1.5 1.5 0 0 1 6 18.5zm12 0A1.5 1.5 0 1 1 19.5 17 1.5 1.5 0 0 1 18 18.5z"/></svg></span>
+        <h3>Limpieza de canales</h3>
+        <p>Descolmatación y limpieza de la red de riego.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.1 8.5l.6-1.1c.3-.5 1-1 1.5-.9l.2.1-1.5 1.1a1 1 0 0 0-.8 2.8l1.4 5.8a2 2 0 1 1-3.9.9l1.2-4.9-1.5 1a2.3 2.3 0 0 1-1.2.8H8.9A2 2 0 0 1 7 15.9l-4.8-.6a1.2 1.2 0 0 1-.2-2.4 2 2 0 0 1 2.4 1.4l3.2.4V8H4.8a2.2 2.2 0 0 1-.6-4.3l6.2-2.2c.8-.3 1.6.1 1.9.9l.4 1.1a2 2 0 0 0 1.3 1.2l2.5.7a2 2 0 0 0 2.6 1.1z"/></svg></span>
+        <h3>Obras de rehabilitación</h3>
+        <p>Mejoramiento de la infraestructura de riego.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 18v1a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-1h18zM5 16v-7a7 7 0 0 1 14 0v7h-3v-6.5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1V16H5zm3-7a4 4 0 0 0 8 0h-8z"/></svg></span>
+        <h3>Alquiler de maquinaria</h3>
+        <p>Servicio de maquinaria a disposición de los usuarios.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Galería ===== -->
+<section class="section" id="galeria">
+  <div class="container">
+    <div class="section-head center">
+      <p class="eyebrow">Galería</p>
+      <h2 class="section-title">Nuestra comunidad</h2>
+      <p class="section-desc">Momentos de nuestras actividades institucionales.</p>
+    </div>
+    <div class="gallery-grid">
+      <figure class="gallery-item gallery-wide">
+        <div class="gallery-tile"><img src="assets/images/sede.jpg" alt="Vista de la Junta de Usuarios San Lorenzo"/><span class="gallery-caption">Instalaciones</span></div>
+      </figure>
+      <figure class="gallery-item">
+        <div class="gallery-tile"><img src="assets/images/campos.jpg" alt="Trabajos de campo en San Lorenzo"/><span class="gallery-caption">Campañas</span></div>
+      </figure>
+      <figure class="gallery-item">
+        <div class="gallery-tile"><img src="assets/images/asamblea.jpg" alt="Asamblea de usuarios"/><span class="gallery-caption">Asambleas</span></div>
+      </figure>
+      <figure class="gallery-item">
+        <div class="gallery-tile"><img src="assets/images/repartidor.jpg" alt="Repartidor de agua"/><span class="gallery-caption">Infraestructura</span></div>
+      </figure>
+      <figure class="gallery-item">
+        <div class="gallery-tile"><img src="assets/images/valvula.jpg" alt="Válvulas del sistema de riego"/><span class="gallery-caption">Tecnificación</span></div>
+      </figure>
+      <figure class="gallery-item">
+        <div class="gallery-tile"><img src="assets/images/reservorio.jpg" alt="Reservorio San Lorenzo"/><span class="gallery-caption">Reservorio</span></div>
+      </figure>
+      <figure class="gallery-item gallery-wide">
+        <div class="gallery-tile"><img src="assets/images/about.jpg" alt="Comunidad de usuarios San Lorenzo"/><span class="gallery-caption">Comunidad</span></div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Ubicación ===== -->
+<section class="section section-dark" id="ubicacion">
+  <div class="container grid-2 align-center">
+    <div class="content light">
+      <p class="eyebrow">Ubicación</p>
+      <h2 class="section-title">Visítanos</h2>
+      <p class="section-desc">Atendemos a nuestros usuarios en nuestra sede institucional de lunes a sábado.</p>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <span class="contact-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span>
+          <div><strong>Dirección</strong><span>Av. Reforma Agraria S/N – La Cruceta – Tambogrande – Piura</span></div>
+        </div>
+        <div class="contact-card">
+          <span class="contact-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10h5v2h-7V6h2v6z"/></svg></span>
+          <div><strong>Horario de trabajo</strong><span>Lun–Vie 8:00 a.m. – 4:00 p.m. · Sáb 8:00 a.m. – 1:00 p.m.</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="map">
+      <iframe title="Mapa de ubicación de la Junta de Usuarios San Lorenzo" src="https://maps.google.com/maps?q=Junta%20de%20usuarios%20del%20sector%20hidr%C3%A1ulico%20menor%20San%20Lorenzo&amp;t=m&amp;z=17&amp;output=embed&amp;iwloc=near" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contacto ===== -->
+<section class="section" id="contacto">
+  <div class="container grid-2">
+    <div class="content">
+      <p class="eyebrow">Contáctanos</p>
+      <h2 class="section-title">Estamos listos para atenderte</h2>
+      <p class="section-desc">Utiliza el canal que desees para comunicarte con nosotros. Respondemos en un plazo de 24 horas.</p>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <span class="contact-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6.5l8 5 8-5V8z"/></svg></span>
+          <div><strong>Correo electrónico</strong><a href="mailto:juntasanlorenzo@jusanlorenzo.org.pe">juntasanlorenzo@jusanlorenzo.org.pe</a></div>
+        </div>
+        <div class="contact-card">
+          <span class="contact-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.57 1 1 0 0 1-.25 1.02z"/></svg></span>
+          <div><strong>Teléfono / WhatsApp</strong><a href="tel:+51942028075">+51 942 028 075</a></div>
+        </div>
+      </div>
+      <div class="social-row">
+        <strong>Síguenos:</strong>
+        <a class="social-btn" href="https://www.facebook.com/profile.php?id=100076060864594" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46H15.2c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
+        </a>
+        <a class="social-btn" href="https://w.app/FkwQes" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15L2 22l5.15-1.35A10 10 0 1 0 12 2zm5.2 14.15c-.22.62-1.28 1.2-1.8 1.24-.48.03-1.1.17-3.74-.78-3.16-1.19-5.16-4.24-5.32-4.44-.15-.2-1.27-1.69-1.27-3.22 0-1.53.8-2.28 1.08-2.6.28-.3.62-.38.83-.38h.6c.2 0 .45-.07.7.54.24.6.84 2.06.92 2.2.07.15.12.32.02.52-.08.2-.15.32-.28.5l-.42.5c-.14.14-.29.3-.13.57.17.27.75 1.23 1.6 2 1.09.98 2.01 1.29 2.3 1.43.28.14.45.12.61-.08.17-.2.7-.82.9-1.1.18-.28.37-.23.62-.14.26.1 1.63.77 1.91.91.28.14.47.2.54.32.07.11.07.65-.15 1.28z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <form class="form" id="contactForm">
+      <h3 class="form-title">Formulario de contacto</h3>
+      <div class="form-grid">
+        <div class="field">
+          <label for="f-nombre">Nombres</label>
+          <input id="f-nombre" name="nombre" type="text" required/>
+        </div>
+        <div class="field">
+          <label for="f-apellidos">Apellidos</label>
+          <input id="f-apellidos" name="apellidos" type="text" required/>
+        </div>
+        <div class="field">
+          <label for="f-email">Correo electrónico</label>
+          <input id="f-email" name="email" type="email" required/>
+        </div>
+        <div class="field">
+          <label for="f-celular">Celular</label>
+          <input id="f-celular" name="celular" type="tel"/>
+        </div>
+        <div class="field field-full">
+          <label for="f-mensaje">Escribe aquí tu consulta</label>
+          <textarea id="f-mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+      </div>
+      <button class="btn btn-primary btn-lg btn-block" type="submit">Enviar mensaje</button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== Pie de página ===== -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-col footer-about">
+      <img class="brand-logo brand-logo-light" src="http://localhost:8080/jushsal/assets/images/logo.png" alt="Logo Junta de Usuarios San Lorenzo"/>
+      <p>Somos una institución de prestigio, reconocida por su vocación integradora y gestión eficiente del recurso hídrico; brindamos servicios de calidad a nuestros usuarios para generar bienestar.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Institucional</h4>
+      <ul class="footer-links">
+        <li><a href="http://localhost:8080/jushsal/index.php#quienes-somos">Quiénes Somos</a></li>
+        <li><a href="http://localhost:8080/jushsal/index.php#historia">Nuestra Historia</a></li>
+        <li><a href="http://localhost:8080/jushsal/presidentes.php">Presidentes y Gestiones</a></li>
+        <li><a href="http://localhost:8080/jushsal/index.php#documentos">Documentos Institucionales</a></li>
+        <li><a href="http://localhost:8080/jushsal/index.php#comisiones">Comisiones de Usuarios</a></li>
+        <li><a href="http://localhost:8080/jushsal/index.php#servicios">Servicio de Maquinaria</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Canales de atención</h4>
+      <ul class="footer-links">
+        <li><a href="mailto:juntasanlorenzo@jusanlorenzo.org.pe">juntasanlorenzo@jusanlorenzo.org.pe</a></li>
+        <li><a href="tel:+51942028075">+51 942 028 075</a></li>
+        <li><span>Lunes a viernes: 8:00 a.m. – 4:00 p.m.</span></li>
+        <li><span>Sábado: 8:00 a.m. – 1:00 p.m.</span></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Enlaces rápidos</h4>
+      <ul class="footer-links">
+        <li><a href="http://localhost:8080/jushsal/index.php#inicio">Inicio</a></li>
+        <li><a href="http://localhost:8080/jushsal/index.php#noticias">Noticias</a></li>
+        <li><a href="http://localhost:8080/jushsal/index.php#galeria">Galería</a></li>
+        <li><a href="http://localhost:8080/jushsal/index.php#contacto">Contáctanos</a></li>
+        <li><a href="http://localhost:8080/jushsal/admin/login.php" style="opacity: 0.8;"><small>Acceso al Panel Administrativo</small></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <span>© <span id="year">2026</span> Junta de Usuarios San Lorenzo · Sector Hidráulico Menor San Lorenzo</span>
+      <span>Tambogrande – Piura – Perú</span>
+    </div>
+  </div>
+</footer>
+
+<div class="wa-float">
+  <a href="https://w.app/FkwQes" target="_blank" rel="noopener" aria-label="Chatear por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15L2 22l5.15-1.35A10 10 0 1 0 12 2zm5.2 14.15c-.22.62-1.28 1.2-1.8 1.24-.48.03-1.1.17-3.74-.78-3.16-1.19-5.16-4.24-5.32-4.44-.15-.2-1.27-1.69-1.27-3.22 0-1.53.8-2.28 1.08-2.6.28-.3.62-.38.83-.38h.6c.2 0 .45-.07.7.54.24.6.84 2.06.92 2.2.07.15.12.32.02.52-.08.2-.15.32-.28.5l-.42.5c-.14.14-.29.3-.13.57.17.27.75 1.23 1.6 2 1.09.98 2.01 1.29 2.3 1.43.28.14.45.12.61-.08.17-.2.7-.82.9-1.1.18-.28.37-.23.62-.14.26.1 1.63.77 1.91.91.28.14.47.2.54.32.07.11.07.65-.15 1.28z"/></svg>
+  </a>
+</div>
+
+<script src="http://localhost:8080/jushsal/js/script.js"></script>
+</body>
+</html>
